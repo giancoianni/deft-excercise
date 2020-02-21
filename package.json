@@ -1,0 +1,19 @@
+{
+  "name": "excercise",
+  "version": "1.0.0",
+  "description": "Tehcnical Excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist\\index.js",
+    "build": "npx tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giancarlo Ianni",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.4"
+  }
+}
